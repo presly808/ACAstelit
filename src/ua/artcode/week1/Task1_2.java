@@ -1,3 +1,4 @@
+package ua.artcode.week1;
 import java.util.Scanner;
 
 public class Task1_2 {
@@ -5,7 +6,7 @@ public class Task1_2 {
 	// Ctrl + Shift + /
 	public static void main(String[] args) {
 		System.out.println("BEGIN");
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);// 
 		System.out.println("Input a = ");
 		int a = sc.nextInt();
 		System.out.println("Input b = ");

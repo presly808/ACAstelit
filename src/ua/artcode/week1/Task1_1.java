@@ -1,3 +1,4 @@
+package ua.artcode.week1;
 // Shift + Ctrl + F
 public class Task1_1 {
 
