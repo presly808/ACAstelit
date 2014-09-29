@@ -92,4 +92,20 @@ public class ArrayUtils {
 		
 	}
 	
+	public static void bubbleSort(int[] mas){
+		for(int j = 0; j < mas.length; j++){
+			for(int i = 0; i < mas.length - 1 - j; i++){
+				if(mas[i] > mas[i+1]){
+					swap(mas, i, i+1);
+				}
+			}			
+		}
+	}
+	
+	public static void swap(int[] mas, int first, int second){
+		int temp = mas[first];
+		mas[first] = mas[second];
+		mas[second] = temp;
+	}
+	
 }
